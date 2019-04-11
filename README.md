@@ -14,7 +14,7 @@ So, there was the need to access a centralized json file.
 
 shchukax implemented two different ways to get to a json file, and loaded the json with a different structure of the one I'm loading here, but I already was loading a json file, so I wanted to keep loading the same way this new file; And to be honest, I couldn't get shchukax to work, for some reason I just wasn't reaching the locators.json file... But I guess I was doing something wrong.
 
-Let me just say that if you don't have the background of using an abstract class to load selenium driver and implementing the Page Object Model, this Page Object project won't do that much for you. You need to take baby steps before fully understanding all this :)
+Let me just say that if you don't have the background of using an abstract class to load selenium driver and implementing the Page Object Model, and cucumber, and some other stuff, this Page Object project won't do that much for you. You need to take baby steps before fully understanding all this :)
 
 So, to use the page object, we use like this:
 
