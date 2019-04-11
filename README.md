@@ -9,16 +9,20 @@ Page objects model have a limitation, we can only use locators to get to the pag
 private WebElement formElement;
 ```
 
-I didin't like this, because the code had to be all over the files.
-So, there was the need to access a centralized file.
+I didin't like this, because the code had to be spread over the files, it would be hard to maintain.
+So, there was the need to access a centralized json file.
 
 shchukax implemented two different ways to get to a json file, and loaded the json with a different structured of the one I'm loading here, but I already was loading a json file, so I wanted to keep loading the same way this new file; And to be honest, I couldn't get it to work, for some reason I just wasn't reaching the locators.json file...
 
-Let me just say that if you don't have the background of using an abstract class to load selenium and implementing the Page Object Model, this Page Object code will be very hard to implement. You need to take baby steps before fully understanding all this :)
+Let me just say that if you don't have the background of using an abstract class to load selenium driver and implementing the Page Object Model, this Page Object won't do that much for you. You need to take baby steps before fully understanding all this :)
 
-So, to use the page object we use like this:
+So, to use the page object, we use like this:
 
 ```sh
 @SearchWith(page="login", name="formElement")
 private WebElement formElement;
 ```
+
+As I've said, I cripled the shchukax work, but changed it in a way to satisfy what I needed.
+
+The code in here is not a functional project, are just the required files, but I plan on updating sometime soon.
