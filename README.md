@@ -4,8 +4,10 @@ This project is inspired by https://github.com/shchukax/search-with work. In fac
 
 Page objects model have a limitation, we can only use locators to get to the page elements. For instance:
 
+```sh
 @FindBy(how = How.XPATH, using = "//div/div/div/div/div/div[1]/section/div/div/div/form/div[1]/input")
 private WebElement formElement;
+```
 
 I didin't like this, because the code had to be all over the files.
 So, there was the need to access a centralized file.
@@ -16,5 +18,7 @@ Let me just say that if you don't have the background of using an abstract class
 
 So, to use the page object we use like this:
 
+```sh
 @SearchWith(page="login", name="formElement")
 private WebElement formElement;
+```
