@@ -1,4 +1,4 @@
-# Page Objects - Import locators from json file
+# Page Objects - Search locators in json file
 
 This project is inspired by https://github.com/shchukax/search-with work. In fact, most of the code is from this user, but I changed the way the json file is accessed.
 
