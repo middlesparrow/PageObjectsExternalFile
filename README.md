@@ -25,7 +25,6 @@ private WebElement formElement;
 
 As I've said, I cripled the shchukax work, but changed it in a way to satisfy what I needed.
 
-The code in here is not a functional project, are just the required files, but I plan on updating sometime soon.
 
 ```sh
 {
